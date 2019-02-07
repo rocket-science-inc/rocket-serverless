@@ -6,19 +6,5 @@ export const RootQueryType = new GraphQLObjectType({
     description: "Schema Query Root",
     fields: () => ({
         feed: FeedQuery
-        // authors: {
-        //     type: new GraphQLList(EventType),
-        //     description: "List of all Authors",
-        //     resolve: function() {
-        //         return [{id: "123"}]
-        //     }
-        // },
-        // posts: {
-        //     type: new GraphQLList(EventType),
-        //     description: "List of all Posts",
-        //     resolve: function() {
-        //         return []
-        //     }
-        // }
     })
 });
