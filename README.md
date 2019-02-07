@@ -1,5 +1,4 @@
-Serverless
-===============================
+# Serverless [![CircleCI Build Status](https://circleci.com/gh/rocket-science-inc/rocket-serverless.svg?style=svg)](https://circleci.com/gh/rocket-science-inc/rocket-serverless) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rocket-science-inc/rocket-serverless/master/LICENSE)
 
 This is Functions as a Service (FaaS) serverless container which is used as a temprorary server-side application while the Rocker Server is main server-side logic and still been writting by the application developer unlike main architecture, it’s run in stateless compute container.
 
