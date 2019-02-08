@@ -1,4 +1,4 @@
-import { GraphQLObjectType, GraphQLNonNull, GraphQLString, GraphQLFloat } from "graphql";
+import { GraphQLObjectType, GraphQLNonNull, GraphQLString, GraphQLInt } from "graphql";
 
 export const LocationType = new GraphQLObjectType({
     name: "Location",
