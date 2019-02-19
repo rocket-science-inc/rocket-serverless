@@ -7,6 +7,7 @@ export const EventType = new GraphQLObjectType({
         id: { type: new GraphQLNonNull(GraphQLString) },
         title: { type: new GraphQLNonNull(GraphQLString) },
         start: { type: new GraphQLNonNull(GraphQLFloat) },
-        location: { type: new GraphQLNonNull(LocationType) }
+        location: { type: new GraphQLNonNull(LocationType) },
+        image: { type: new GraphQLNonNull(GraphQLString) }
     })
 })

@@ -7,6 +7,7 @@ type Event {
   title: String!
   start: Float!
   location: Location!
+  image: String!
 }
 
 type Feed {
